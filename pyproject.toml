@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-sdp"
+version = "0.1.0"
+description = ""
+authors = ["Ganesh Prasad <mister.xrao@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_sdp"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.9.0"}
+peewee = "^3.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
